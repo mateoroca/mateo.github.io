@@ -37,9 +37,14 @@
     padding: .7em 0;
     border-radius: .4em;
     cursor: pointer
-    
-  
   }
+  
+  
+  .d-print-none{
+    grid-template-rows: auto;
+    position: relative;
+  }
+
 .timeline-card:before {
   content: '';
   display: inline-block;
