@@ -3,6 +3,41 @@
   position: relative;
   margin-left: 16px; }
 
+.form{
+    background-color: #fff;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+}
+  .form_container{
+     width: 100%;
+     display: grid;
+     gap:lem;
+     grid-auto-columns: 100%;
+
+  }
+  .form_input--message{
+
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+  }
+  
+  .form_cta{
+    font-family: inherit;
+    font-size: 1rem;
+    background-color: #089Fe0;
+    color: #fff;
+    border:none;
+    font-weight: 300;
+    padding: .7em 0;
+    border-radius: .2em;
+    cursor: pointer
+    font;
+  
+  }
 .timeline-card:before {
   content: '';
   display: inline-block;
