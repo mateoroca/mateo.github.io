@@ -17,6 +17,10 @@
      gap: 1px;
      grid-auto-columns: 100%;
 
+   
+
+
+
 
   }
   .form_input--message{
@@ -40,10 +44,7 @@
   }
   
   
-  .d-print-none{
-    grid-template-rows: auto;
-    position: relative;
-  }
+  
 
 .timeline-card:before {
   content: '';
@@ -147,7 +148,15 @@ footer a:not(.nav-link) {
   .portfolio-reverse {
     flex-direction: column-reverse; }
   .portfolio-reverse .text-end {
-    text-align: start !important; } }
+  
+    text-align: start !important; } 
+    
+   /*  .d-print-none{
+     
+      
+     } */
+  }
+
 
 @media print {
   [data-aos] {
