@@ -20,7 +20,13 @@
      grid-auto-columns: 100%;
   }
    
+  .form_input{
 
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+    border-color: #E6E9ED;
+    border: none;
+    font-size: small;
+  }
 
   
   .form_input--message{
@@ -42,6 +48,7 @@
     color: #fff;
     border: 30px;
     cursor: pointer;
+    box-shadow: 10px 10px 40px rgb(0, 0, 0);
   
     
   }
@@ -63,6 +70,7 @@
      transition: 0.2;
      background-color: rgb(64, 226, 88);
      box-shadow: 0 0 5px rgb(64, 226, 88);
+     box-shadow: 10px 10px 40px rgb(0, 0, 0);
   } 
 
 
