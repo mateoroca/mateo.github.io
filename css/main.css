@@ -331,7 +331,7 @@ element.style.container {
 .wave-group .input:valid~label .label-char {
   transform: translateY(-20px);
   font-size: 14px;
-  color: #5264AE;
+  color: #28ae4c;
 }
 
 .wave-group .bar {
@@ -347,7 +347,7 @@ element.style.container {
   width: 0;
   bottom: 1px;
   position: absolute;
-  background: #5264AE;
+  background: #28ae4c;
   transition: 0.2s ease all;
   -moz-transition: 0.2s ease all;
   -webkit-transition: 0.2s ease all;
@@ -371,18 +371,18 @@ element.style.container {
 button {
   position: relative;
   padding: 15px 45px;
-  background: #f79a58;
+  background: linear-gradient(85deg, #338632, #70e470, #269b2d, #91f064, #21a84e);
   font-size: 17px;
   font-weight: 500;
   color: #181818;
-  border: 1px solid #FEC195;
+  border: 1px solid #3ab44e;
   border-radius: 8px;
   filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, .2));
 }
 
 button:hover {
-  border: 1px solid #f3b182;
-  background: linear-gradient(85deg, #FEC195, #fcc196, #fabd92, #fac097, #fac39c);
+  border: 1px solid #9dc0e9;
+  background: linear-gradient(85deg, #5661c5, #70d3e4, #24bed6, #c9e7f9, #d6b665);
   animation: wind 2s ease-in-out infinite;
 }
 
