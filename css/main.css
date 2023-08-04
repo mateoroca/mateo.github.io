@@ -489,3 +489,11 @@ button:hover .icon-3 {
     transform: rotate(0);
   }
 }
+
+
+.skill-bar-clound {
+
+  background-image: url('../images/1691185226726.png');
+  background-size: 100% auto;
+
+}
