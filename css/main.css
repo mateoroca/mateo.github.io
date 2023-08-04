@@ -381,7 +381,7 @@ button {
 }
 
 button:hover {
-  border: 1px solid #9dc0e9;
+  border: 1px solid #eaeaea;
   background: linear-gradient(85deg, #5661c5, #70d3e4, #24bed6, #c9e7f9, #d6b665);
   animation: wind 2s ease-in-out infinite;
 }
