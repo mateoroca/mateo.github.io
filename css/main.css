@@ -288,6 +288,7 @@ element.style.container {
 
 .custom-backgraund {
   background-image: url(../images/fondo.jpg);
+
 }
 
 
@@ -496,4 +497,10 @@ button:hover .icon-3 {
   background-image: url('../images/1691185226726.png');
   background-size: 100% auto;
 
+}
+
+.img-thumbnail {
+
+  box-shadow: none;
+  border: none;
 }
