@@ -29,5 +29,3 @@ document.addEventListener("DOMContentLoaded", function () {
     imageObserver.observe(image);
   });
 });
-
-// Add your javascript here
