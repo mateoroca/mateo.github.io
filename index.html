@@ -21,10 +21,13 @@
   <link href="css/mdb.min.css?ver=1.2.1" rel="stylesheet" />
   <link href="css/aos.css?ver=1.2.1" rel="stylesheet" />
   <link href="css/main.css?ver=1.2.1" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/loader.css">
 
 </head>
 
 <body class="bg-light" id="top">
+
+
   <header class="d-print-none">
     <div class="container text-center text-lg-left">
       <div class="pt-4 clearfix">
@@ -59,16 +62,41 @@
       </div>
     </div>
   </header>
-  <div class="page-content">
-    <div class="container">
+  <div class="page-content" id="page-content">
+
+    <div class="container" id="container-page">
+
       <div class="resume-container">
+        <!-- loader -->
+        <div id="loader" class="loader-container">
+          <div aria-label="Orange and tan hamster running in a metal wheel" role="img" class="wheel-and-hamster">
+            <div class="wheel"></div>
+            <div class="hamster">
+              <div class="hamster__body">
+                <div class="hamster__head">
+                  <div class="hamster__ear"></div>
+                  <div class="hamster__eye"></div>
+                  <div class="hamster__nose"></div>
+                </div>
+                <div class="hamster__limb hamster__limb--fr"></div>
+                <div class="hamster__limb hamster__limb--fl"></div>
+                <div class="hamster__limb hamster__limb--br"></div>
+                <div class="hamster__limb hamster__limb--bl"></div>
+                <div class="hamster__tail"></div>
+              </div>
+            </div>
+            <div class="spoke"></div>
+          </div>
+        </div>
+        <!-- loader end -->
         <div class="shadow-1-strong bg-white my-5" id="intro">
           <div class="text-white">
             <div class="cover  bg-image custom-backgraund  shadow-2-strong">
               <div class="mask">
                 <div class="text-center p-5">
                   <div class="avatar"><img class="img-thumbnail bg-transparent shadow-2-strong"
-                      data-src="./images/fotoPerfil2.png" width="200" height="100" /></div>
+                      data-src="./images/fotoPerfil2.png" width="200" height="100" />
+                  </div>
                   <div class="header-bio mt-3">
                     <div data-aos="zoom-in" data-aos-delay="0">
                       <h2 class="h1">Mateo Roca</h2>
